@@ -1,0 +1,76 @@
+body{
+   font-family: "Marker Felt", "Comic Sans MS", fantasy;
+}
+
+html { 
+  background-image: url('images/darkphoenix.jpg');
+  background-color: coral;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+a:link {
+  color: #9932CC;
+}
+a:visited {
+  color: #4B0082;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 7px 7px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#home {
+    top: 20px;
+    height: 50px;
+    background-color: #a50000;
+}
+
+#portfolio {
+    top: 100px;
+    height: 50px;
+    background-color: #3268bd;
+}
+
+#aboutme {
+    top: 180px;
+    height: 50px;
+    background-color: #00991f;
+}
+
+#csp_p3 {
+    top: 260px;
+    height: 50px;
+    background-color: #460061;
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
