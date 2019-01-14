@@ -1,0 +1,95 @@
+body {
+    font-family: "Marker Felt", "Comic Sans MS", fantasy;
+}
+
+html {
+    background-image: url('images/darkphoenix.jpg');
+    background-color: coral;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:link {
+    color: #e23636;
+}
+
+a:visited {
+    color: #518cca;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 7px 7px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#home {
+    top: 20px;
+    height: 50px;
+    background-color: #e23636;
+}
+
+#portfolio {
+    top: 100px;
+    height: 50px;
+    background-color: #000000;
+}
+
+#aboutme {
+    top: 180px;
+    height: 50px;
+    background-color: #504a4a;
+}
+
+#csp_p3 {
+    top: 260px;
+    height: 50px;
+    background-color: #518cca;
+}
+
+#csa {
+    top: 340px;
+    height: 50px;
+    background-color: #f78f3f;
+}
+
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+
+.snowflake:hover {
+    cursor: default;
+}
+
+.rainbow {
+    background-image: -webkit-gradient( linear, left top, right bottom, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+    background-image: gradient( linear, left top, right bottom, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
