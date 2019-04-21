@@ -1,0 +1,135 @@
+body {
+    font-family: "Marker Felt", "Comic Sans MS", fantasy;
+}
+
+
+html {
+    background-image: url('https://movieposterhd.com/wp-content/uploads/2019/03/Wallpapers-Avengers-Endgame.jpg'), url('https://cdn.vox-cdn.com/uploads/chorus_image/image/63214700/miles_captain_marvel_cat_marvel_ringer.0.jpg'), url('http://cdn.collider.com/wp-content/uploads/2017/07/avengers-infinity-war-poster-comic-con.jpeg');
+    background-color: #79f8a1;
+    background-position: top, center, bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 33%, 100% 33%, 100% 33%;
+    background-attachment: scroll;
+}
+
+a:link {
+    color: #e23636;
+}
+
+a:visited {
+    color: #518cca;
+}
+
+/* Table instructions */
+
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    align: center;
+  }
+
+  table,
+  td,
+  th {
+    border: 5px solid white;
+  }
+
+  td,
+  th {
+    text-align: center;
+    padding: 8px;
+  }
+
+  /* Mouse instructions */
+
+  a:hover {
+    background-color: white;
+  }
+
+  div.a {
+    font-size: 110%;
+  }
+
+#mySidenav a {
+    position: absolute;
+    left: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 7px 7px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#home {
+    top: 20px;
+    height: 50px;
+    background-color: #0b0930;
+}
+
+#portfolio {
+    top: 100px;
+    height: 50px;
+    background-color: #1a1a64;
+}
+
+#aboutme {
+    top: 180px;
+    height: 50px;
+    background-color: #2c2a89;
+}
+
+#csp_p3 {
+    top: 260px;
+    height: 50px;
+    background-color: #453aa4;
+}
+
+#csa {
+    top: 340px;
+    height: 50px;
+    background-color: #5c49c6;
+}
+
+#csp_class_pitch {
+    top: 420px;
+    height: 50px;
+    background-color: #7b6fde;
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+
+.snowflake:hover {
+    cursor: default;
+}
+
+.rainbow {
+    background-image: -webkit-gradient( linear, left top, right bottom, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+    background-image: gradient( linear, left top, right bottom, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
